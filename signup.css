@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+.box {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: #232323;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 40px;
+    margin-top: 200px;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background: #000;
+  }
+.name{
+    font-size: 18px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.name_in {
+    margin-top: 15px;
+    width: 80%;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid deepskyblue;
+    font-size: 15px;
+    color: white;
+    outline: none;
+}
+.number_in {
+    margin-top: 15px;
+    width: 80%;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid deepskyblue;
+    font-size: 15px;
+    color: white;
+    outline: none;
+}
+.mail_in {
+    margin-top: 15px;
+    width: 80%;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid deepskyblue;
+    font-size: 15px;
+    color: white;
+    outline: none;
+}
+.mail{
+    font-size: 18px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.number{
+    font-size: 18px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+button {
+    margin-top: 15px;
+    width: 80%;
+    background-color: deepskyblue;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);   
+}
+.blu a{
+    color: deepskyblue;
+    padding-right: 20px;
+    text-decoration: none;
+    font-size: small;
+}
+.navbar{
+    display: flex;
+    width: auto;
+    background-color: #232323;
+}
+.nav-listx {
+    width: 150%;
+    display: flex;
+    align-items: center;
+}
+.nav-list {
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+.nav-list li{
+    list-style: none;
+    padding: 30px 20px;
+
+}
+.nav-list li a {
+    text-decoration: none;
+    color: #fff;
+}
+.nav-list li a:hover{
+    color: grey;
+
+}
+.rightNav{
+    border: 2px #000;
+    width: 50%;
+    text-align: right;
+    padding: 50px;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    padding-left: 1250px;
+    height: 100px;
+}
